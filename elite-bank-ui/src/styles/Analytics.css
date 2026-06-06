@@ -1,0 +1,34 @@
+.analytics-card{
+    background:#0f172a;
+    border:1px solid #1e293b;
+    border-radius:20px;
+    padding:20px;
+    width:100%;
+    min-width:0;
+    overflow:hidden;
+}
+
+.analytics-card h2{
+    color:white;
+    margin-bottom:20px;
+}
+
+.chart-wrapper{
+    width:100%;
+    height:350px;
+    overflow:hidden;
+}
+
+.recharts-responsive-container{
+    width:100% !important;
+}
+
+.recharts-cartesian-axis-tick-value{
+    fill:#94a3b8;
+}
+
+.recharts-default-tooltip{
+    background:#1e293b !important;
+    border:none !important;
+    border-radius:10px !important;
+}
