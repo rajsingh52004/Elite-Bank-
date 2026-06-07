@@ -7,6 +7,7 @@ import {
 } from "react-icons/fa";
 
 import { useState } from "react";
+import profilePic from "../assets/raj.jpeg";
 
 function Navbar() {
 
@@ -76,8 +77,8 @@ function Navbar() {
 
         <div className="profile">
           <img
-            src="https://i.pravatar.cc/100?img=12"
-            alt=""
+            src={profilePic}
+            alt="ProfilePic"
           />
 
           <div>
